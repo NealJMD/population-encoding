@@ -1,0 +1,5 @@
+## Bayesian Inference with Probabilistic Population Codes
+
+This is the code written for my final project for Computational Neuroscience (NEU 437/537) in April 2013. My work was based around a 2006 paper by Ma and Beck, which is included here as Populaton-Inference-Ma-Beck-2006.pdf. The core idea of the paper is that the activity level of a population of neurons can encode a probability distribution simply by each neuron having a different preffered stimulus, and that summing the activity levels of two such populations is equivalent to multiplying the distibutions. This is robust to noise and would allow the brain to conduct inference in a way consistent with Bayes' rule.
+
+This is shown at great length to be theoretically true in the paper for all Poisson-like distributions. Here I implemented a tool to generate, encode, and decode the distributions and make graphs (bayes_pop.m). I also created a graphic interface to allow interactive live visualization to build an intuitive understanding, (pop_inference.m)
